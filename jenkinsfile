@@ -4,7 +4,7 @@ pipeline {
     stages  {
         stage('Girt Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/pritesh0541/cov_test_jenkins_python.git' 
+                git branch: 'main', url: 'https://github.com/pritesh0541/cov_test_jenkins_python.git'
             }
         }
     }
